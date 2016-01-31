@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\eclispe workspace\FileAutoUpdate\assets"><file name="config.xml" path="C:\eclispe workspace\FileAutoUpdate\assets\config.xml"/></source></dataSet><dataSet config="debug"><source path="C:\eclispe workspace\FileAutoUpdate\build-types\debug\assets"/></dataSet></merger>

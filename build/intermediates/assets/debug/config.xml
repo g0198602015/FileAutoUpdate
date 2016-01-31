@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <SERVER_IP>http://192.168.0.38</SERVER_IP>
+    <SERVER_FILES>
+        <FILE>123.txt</FILE>
+        <FILE>Getting%20Started.pdf</FILE>
+        <FILE>SGPy.pptx</FILE>
+        <FILE>SS3.3_API_ISSUE.pdf</FILE>
+    </SERVER_FILES>
+    <SAVE_FOLDER></SAVE_FOLDER>
+    <LAST_VERSION>0</LAST_VERSION>
+</config>

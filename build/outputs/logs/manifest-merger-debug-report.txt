@@ -1,0 +1,75 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:1:1-37:12
+	xmlns:android
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:1:11-69
+	package
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:2:5-41
+	android:versionName
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:4:5-30
+		INJECTED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml
+		INJECTED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:3:5-28
+		INJECTED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml
+		INJECTED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:5:5-43
+uses-sdk
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:8:9-34
+uses-permission#android.permission.INTERNET
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:12:22-78
+application
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:13:5-35:19
+	android:label
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:17:9-40
+receiver#com.example.fileautoupdate.AutoStartReceiver
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:18:9-22:20
+	android:name
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:18:19-52
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:19:13-21:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:20:25-76
+activity#com.example.fileautoupdate.MainActivity
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:24:9-32:20
+	android:label
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:25:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:30:27-74
+service#com.example.fileautoupdate.services.DownloadService
+ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:34:9-86
+	android:name
+		ADDED from C:\eclispe workspace\FileAutoUpdate\AndroidManifest.xml:34:18-84
